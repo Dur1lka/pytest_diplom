@@ -19,4 +19,4 @@ class MainPage:
         fields=container.find_element(By.CSS_SELECTOR,"div")
         name=fields[0].text
     # Возвращаем имя пользователя:
-    return [name]
+        return [name]
