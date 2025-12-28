@@ -14,6 +14,8 @@ class API_profile
 
     def search_books(self,phrase:str):
         search_params = {
-            "phrase":phrase
+            "phrase":"Граф Аверин"
         }
         response = requests.get(self.url + "search/search-phrase-suggests",headers=self.headers,params=search_params)
+
+    def
